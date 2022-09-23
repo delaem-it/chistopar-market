@@ -147,6 +147,14 @@
 }
 
 @media (max-width: 1024px) {
+  .catalog-heading {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    color: #2E2E2E;
+    margin-top: 16px;
+  }
+
   .catalog-container {
     margin-top: 208px;
   }
@@ -155,6 +163,8 @@
   .filter {
     display: none;
   }
+
+  
 
   .catalog {
     width: 100%;

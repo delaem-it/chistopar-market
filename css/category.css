@@ -1,0 +1,17 @@
+.category .catalog_cards_container ul {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, auto);
+}
+
+@media (max-width: 1024px) {
+  .category .filter {
+    display: flex;
+    width: 100%;
+  }
+
+  .category .catalog-wrapper {
+    flex-direction: column;
+  }
+}
