@@ -411,6 +411,7 @@ header .first_panel .second_list {
   padding: 20px;
   background: #F5F5F5;
   border-radius: 10px;
+
 }
 
 .cat_cards_container ul li img {
@@ -434,6 +435,14 @@ header .first_panel .second_list {
   .advantages ul {
     grid-template-columns: repeat(1, auto);
     grid-template-rows: repeat(4, 1fr);
+  }
+
+  .advantages ul li {
+    width: 100%;
+  }
+
+  .catalog-cards-cont li {
+    width: calc(50vw - 52px);
   }
 }
 
