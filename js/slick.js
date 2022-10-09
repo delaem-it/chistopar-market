@@ -28,7 +28,26 @@ $(document).ready(function () {
     $('#slider-partners').slick('slickNext');
   });
 
-
+  $('#hits_slider').slick({
+    infinite: false,
+    dots: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dotsClass: 'slick-dots',
+    arrow: false,
+    prevArrow: $('.hits-prev'),
+    nextArrow: $('.hits-next'),
+    // responsive: [
+    //   {
+    //     breakpoint: 480,
+    //     settings: {
+    //       slidesToShow: 1,
+    //       dotsClass: 'slick-dots',
+    //       dots: true,
+    //     }
+    //   }
+    // ]
+  });
 
 
   $('#popular_items_slider').slick({
