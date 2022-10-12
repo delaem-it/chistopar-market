@@ -120,6 +120,30 @@
   left: 20px;
 }
 
+.catalog-card-sticker::after {
+  position: absolute;
+  white-space: nowrap;
+  top: 5px;
+  left: calc(100% + 6px);
+  display: flex;
+  visibility: hidden;
+  opacity: 0;
+  content: 'Товар от агрегатора';
+  background-color: white;
+  border: 1px solid #12B270;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: .2s;
+}
+
+.catalog-card-sticker:hover::after {
+  display: flex;
+  visibility: visible;
+  opacity: 1;
+}
+
+
+
 .catalog-card-image img {
   width: 100%;
 }

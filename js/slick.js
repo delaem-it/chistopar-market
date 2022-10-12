@@ -124,6 +124,80 @@ $(document).ready(function () {
     ]
   });
 
+  $('#similar_slider').slick({
+    infinite: false,
+    dots: false,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    // dotsClass: 'slick-dots',
+    arrow: false,
+    prevArrow: $('.slider-popular_items-prev'),
+    nextArrow: $('.slider-popular_items-next'),
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 3,
+          dotsClass: 'slick-dots',
+          dots: false,
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          dotsClass: 'slick-dots',
+          dots: false,
+        }
+      },
+      {
+        breakpoint: 530,
+        settings: {
+          slidesToShow: 1,
+          dotsClass: 'slick-dots',
+          dots: false,
+        }
+      }
+    ]
+  });
+
+  $('#early_slider').slick({
+    infinite: false,
+    dots: false,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    // dotsClass: 'slick-dots',
+    arrow: false,
+    prevArrow: $('.slider-popular_items-prev'),
+    nextArrow: $('.slider-popular_items-next'),
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 3,
+          dotsClass: 'slick-dots',
+          dots: false,
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          dotsClass: 'slick-dots',
+          dots: false,
+        }
+      },
+      {
+        breakpoint: 530,
+        settings: {
+          slidesToShow: 1,
+          dotsClass: 'slick-dots',
+          dots: false,
+        }
+      }
+    ]
+  });
+
   $('#FAQ_slider').slick({
     infinite: false,
     dots: false,
