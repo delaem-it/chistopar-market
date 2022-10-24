@@ -9,7 +9,39 @@
   }
 }
 
-@media screen and (max-width: 1440px) {}
+@media screen and (max-width: 1440px) {
+  
+}
+
+@media screen and (max-width: 990px) {
+  .footer_3_list{
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer_3{
+    align-items: center;
+    flex-direction: column;
+  }
+  .socials_ul {
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .pay_ul {
+    justify-content: center;
+  }
+  .footer_2 {
+    padding: 32px 0;
+    flex-direction: column;
+    justify-content: center!important;
+}
+  .ques_cont{
+    width: 100%;
+    margin-top: 20px;
+  }
+  .mob_footer_el{
+    flex-direction: column;
+  }
+}
 
 
 @keyframes rotation {
@@ -39,7 +71,97 @@ html body {
   /* height: 2000px; */
   /* overflow-x: hidden; */
 }
+footer .logo_container{
+  display: flex;
+  flex-direction: column;
+}
+.footer_1_back{
+  background: #F5F5F5;
+  padding: 40px 0 0 0;
+}
+.logo_container img{
+  width: 100px;
+  margin-bottom: 20px;
+}
 
+.pay_ul li {
+  width: 48px;
+  margin-right: 32px;
+}
+.footer_2_back{
+  background: #EBEBEB;
+  padding: 24px 0;
+}
+.comp{
+  color: #949494;
+}
+.made_in{
+  color: #949494;
+}
+.footer_3_list li{
+  margin-right: 20px;
+}
+.footer_3{
+  justify-content: space-between;
+}
+.footer_2{
+  padding: 32px 0;
+  border-top: 1px solid #EBEBEB;
+  justify-content: space-between;
+
+}
+.footer_social_item{
+  background: #FFFFFF;
+  border-radius: 10px;
+  padding: 13px 10px;
+  width: 40px;
+  height: 40px;
+}
+.pay_ul li img{
+  width: 100%;
+}
+.green_btn_footer{
+  font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #12B370;
+padding: 12px 24px;
+background: #D8F5E9;
+border-radius: 10px;
+text-align: center;
+}
+.FAQ_item_collapse{
+  padding: 16px 18px;
+}
+.arrow_rotate{
+  transform: rotate(180deg);
+  transition: .3s;
+}
+.accordion-item-my{
+  background: #FFFFFF;
+border-radius: 10px;
+    box-shadow: 0px 0px 20px rgb(54 65 61 / 12%);
+
+}
+.accordion-link-my{
+  background: #FFFFFF;
+    /* box-shadow: 0px 0px 20px rgb(54 65 61 / 12%); */
+    border-radius: 10px;
+    padding: 12px 16px;
+}
+.footer_ul{
+  max-width: 140px;
+  margin-right: 32px;
+}
+.footer_ul li{
+  margin-bottom: 20px;
+}
+.footer_ul .h{
+  color: #949494;
+}
+.footer_ul:last-child{
+  margin-right: 0;
+}
 .my_fade {
   position: fixed;
   height: 100vh;

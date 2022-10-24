@@ -52,7 +52,10 @@ $( document ).ready(function() {
 	});
 
 
-
+$('.accordion-item').click(function(){
+    // console.log('привет');
+    $(this).find('svg').toggleClass('arrow_rotate');
+})
 
 
     $('.card_buy_btn').click(function(){
