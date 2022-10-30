@@ -462,7 +462,40 @@ header .first_panel .second_list {
   font-size: 20px;
   line-height: 28px;
   width: 35%;
+}
 
+@media screen and (max-width: 990px) {
+  .second_panel input {
+    width: 100%!important;
+}
+  .btn_catalog_header {
+    display: none!important;
+}
+  .w_70_container {
+    width: 100%!important;
+}
+  .logo svg{
+    width: 142px;
+  }
+  header .first_panel .first_list .first_list_li {
+    display: none;
+}
+header .first_panel .second_list {
+  display: none!important;
+}
+header .first_panel .first_list {
+  justify-content: space-between;
+  width: 100%;
+}
+.header_mob_ul li{
+  margin-right: 30px;
+}
+.header_mob_ul li:last-child{
+  margin-right: 0px;
+}
+.second_panel_list{
+  display: none;
+}
 
 }
 
