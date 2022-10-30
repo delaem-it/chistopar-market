@@ -500,15 +500,19 @@ header .first_panel .first_list {
 }
 
 @media (max-width: 768px) {
+  .cat_labels .item {
+    margin-bottom: 2px!important;
+    font-size: 8px;
+}
   .best_for_spa_slider .card .p {
     width: 65%;
 
   }
-
-  .best_for_spa_slider .card .h {}
-
+  .card_buy_btn {
+    width: 36px!important;
+    height: 36px!important;;
 }
-
+}
 .best_for_spa_slider .card .span {
   font-size: 12px;
   line-height: 16px;

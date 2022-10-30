@@ -145,19 +145,19 @@ $(document).ready(function () {
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1.9,
           dotsClass: 'slick-dots',
           dots: false,
         }
       },
-      {
-        breakpoint: 530,
-        settings: {
-          slidesToShow: 1,
-          dotsClass: 'slick-dots',
-          dots: false,
-        }
-      }
+      // {
+      //   breakpoint: 530,
+      //   settings: {
+      //     slidesToShow: 1,
+      //     dotsClass: 'slick-dots',
+      //     dots: false,
+      //   }
+      // }
     ]
   });
 
@@ -182,19 +182,12 @@ $(document).ready(function () {
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1.9,
           dotsClass: 'slick-dots',
           dots: false,
         }
       },
-      {
-        breakpoint: 530,
-        settings: {
-          slidesToShow: 1,
-          dotsClass: 'slick-dots',
-          dots: false,
-        }
-      }
+
     ]
   });
 
