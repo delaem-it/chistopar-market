@@ -500,140 +500,304 @@
 
 
 
-    <section class="catalog">
-    <div class="container catalog__container">
-        <div class="catalog__container-mobile">
-            <div class="product-nav" aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="#">Главная</a></li>
-                    <li class="breadcrumb-item"><a href="#">Библиотека</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Данные</li>
-                </ol>
-            </div>
-            <h2 class="catalog__product-title">
-                Текстиль для бани и сауны
-            </h2>
-        </div>
-
-        <aside class="catalog__aside">
-            <div class="accordion" id="catalog__aside">
-                <div class="card">
-                    <div class="card-header" id="catalog__btn-1">
-                        <a href="" class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#catalog__block-link-1" aria-expanded="true" aria-controls="catalog__block-link-1">
-                            Текстиль для бани и сауны
-                        </a>
-                    </div>
-
-                    <div id="catalog__block-link-1" class="collapse show" aria-labelledby="catalog__btn-1" data-parent="#catalog__aside">
-                        <div class="card-body catalog__aside-body">
-                            <a href="">Халаты</a>
-                            <a href="">Полотенца</a>
+    <div class="lk">
+    <div class="container">
+        <h2 class="lk__title">
+            Личные данные
+        </h2>
+        <div class="lk__block-info">
+            <div class="lk__left-content">
+                <form action="" class="lk__form ">
+                    <div class="lk__block-form">
+                        <h3 class="lk__block-form-title">
+                            Персональная информация
+                        </h3>
+                        <div class="form-group">
+                            <input type="text" required placeholder="Имя*" class="form-control" id="name" >
+                        </div>
+                        <div class="form-group">
+                            <input type="text" required placeholder="Фамилия*" class="form-control" id="name-last" >
+                        </div>
+                        <div class="form-group">
+                            <input type="text"  placeholder="Отчество" class="form-control" id="name-frost" >
                         </div>
                     </div>
-                </div>
-                <div class="card">
-                    <div class="card-header" id="catalog__btn-2">
-                        <a href="" class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#catalog__block-link-2" aria-expanded="true" aria-controls="catalog__block-link-2">
-                            Текстиль для бани и сауны #2
-                        </a>
-                    </div>
-
-                    <div id="catalog__block-link-2" class="collapse" aria-labelledby="catalog__btn-2" data-parent="#catalog__aside">
-                        <div class="card-body catalog__aside-body">
-                            <a href="">Халаты</a>
-                            <a href="">Полотенца</a>
+                    <div class="lk__block-form">
+                        <h3 class="lk__block-form-title">
+                            Контактные данные
+                        </h3>
+                        <div class="form-group">
+                            <input type="tel" required placeholder="Номер телефона*" class="form-control" id="phone" >
+                        </div>
+                        <div class="form-group">
+                            <input type="email" required placeholder="E-mail*" class="form-control" id="email" >
+                        </div>
+                        <div class="form-group checkbox-ios-block">
+                            <div class="checkbox-ios-text">
+                                Получать чеки на указанный e-mail
+                            </div>
+                            <label class="checkbox-ios">
+                                <input type="checkbox">
+                                <span class="checkbox-ios-switch"></span>
+                            </label>
                         </div>
                     </div>
+                    <div class="lk__block-form">
+                        <h3 class="lk__block-form-title">
+                            Рассылки
+                        </h3>
+                        <div class="form_checkbox">
+                            <input id="checkbox-1" type="checkbox" name="checkbox-1" value="2" >
+                            <label for="checkbox-1">Новости</label>
+                        </div>
+                        <div class="form_checkbox">
+                            <input id="checkbox-2" type="checkbox" name="checkbox-2" value="2" >
+                            <label for="checkbox-2">Акции</label>
+                        </div>
+                        <div class="form_checkbox">
+                            <input id="checkbox-3" type="checkbox" name="checkbox-3" value="2" >
+                            <label for="checkbox-3">Новые партнёры</label>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn-submit-color lk__btn">Сохранить изменения</button>
+                </form>
+            </div>
+            <div class="lk__right-content">
+                <form action="" class="lk__block-icon">
+                    <div class="lk__block-icon-img">
+                        <img src="img/articles_img_1.png" alt="">
+                    </div>
+                    <div class="lk__block-icon-text">
+                        Фото будет использоваться
+                        в комментариях и отзывах
+                    </div>
+                    <button type="submit" class="btn-submit-color lk__btn-img">Изменить</button>
+                </form>
+            </div>
+        </div>
+        <div class="lk__footer-block">
+            <a href="" class="lk__footer-link">
+                Выйти из профиля
+            </a>
+        </div>
+
+
+    </div>
+    <div class="container">
+        <h2 class="lk__title">
+            Личные данные
+        </h2>
+        <div class="lk__block-info">
+            <div class="lk__left-content">
+                <form action="" class="lk__form lk__form--red">
+                    <div class="lk__block-form">
+                        <h3 class="lk__block-form-title">
+                            Персональная информация
+                        </h3>
+                        <div class="form-group">
+                            <label for="name">Имя*</label>
+                            <input type="text" required placeholder="Имя*" class="form-control" id="name" >
+                        </div>
+                        <div class="form-group">
+                            <label for="name-last">Фамилия*</label>
+                            <input type="text" required placeholder="Фамилия*" class="form-control" id="name-last" >
+                        </div>
+                        <div class="form-group">
+                            <label for="name-frost">Отчество</label>
+                            <input type="text"  placeholder="Отчество" class="form-control" id="name-frost" >
+                        </div>
+                    </div>
+                    <div class="lk__block-form">
+                        <h3 class="lk__block-form-title">
+                            Контактные данные
+                        </h3>
+                        <div class="form-group">
+                            <label for="phone">Номер телефона*</label>
+                            <input type="tel" required placeholder="Номер телефона*" class="form-control" id="phone" >
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail*</label>
+                            <input type="email" required placeholder="E-mail*" class="form-control" id="email" >
+                        </div>
+                        <div class="form-group checkbox-ios-block">
+                            <div class="checkbox-ios-text">
+                                Получать чеки на указанный e-mail
+                            </div>
+                            <label class="checkbox-ios">
+                                <input type="checkbox" checked>
+                                <span class="checkbox-ios-switch"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="lk__block-form">
+                        <h3 class="lk__block-form-title">
+                            Рассылки
+                        </h3>
+                        <div class="form_checkbox">
+                            <input id="checkbox-1" type="checkbox" checked name="checkbox-1" value="2" >
+                            <label for="checkbox-1">Новости</label>
+                        </div>
+                        <div class="form_checkbox">
+                            <input id="checkbox-2" type="checkbox" checked name="checkbox-2" value="2" >
+                            <label for="checkbox-2">Акции</label>
+                        </div>
+                        <div class="form_checkbox">
+                            <input id="checkbox-3" type="checkbox" checked name="checkbox-3" value="2" >
+                            <label for="checkbox-3">Новые партнёры</label>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn-submit-color lk__btn">Изменить</button>
+                </form>
+            </div>
+            <div class="lk__right-content">
+                <form action="" class="lk__block-icon">
+                    <div class="lk__block-icon-img">
+                        <img src="img/avatar_empty.png" alt="">
+                    </div>
+                    <div class="lk__block-icon-text">
+                        Фото будет использоваться
+                        в комментариях и отзывах
+                    </div>
+                    <button type="submit" class="btn-submit-color lk__btn-img">Изменить</button>
+                </form>
+            </div>
+        </div>
+        <div class="lk__footer-block">
+            <a href="" class="lk__footer-link">
+                Выйти из профиля
+            </a>
+        </div>
+
+
+    </div>
+    <div class="container">
+        <h2 class="lk__title">
+            Заказы
+        </h2>
+        <div class="lk__orders">
+            <div class="lk__orders-containers">
+                <div class="lk__orders-title">
+                    Заказ МР657385
                 </div>
-            </div>
-
-        </aside>
-        <div class="catalog__product">
-            <div class="catalog__container-pc">
-                <div class="product-nav" aria-label="breadcrumb">
-                    <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">Главная</a></li>
-                        <li class="breadcrumb-item"><a href="#">Библиотека</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Данные</li>
-                    </ol>
+                <div class="lk__orders-cost">
+                    на сумму
+                    <span>5 999</span>₽
                 </div>
-                <h2 class="catalog__product-title">
-                    Текстиль для бани и сауны
-                </h2>
+                <div class="lk__orders-content">
+                    <span>Оформлен: </span>27.07.2022
+                </div>
+                <div class="lk__orders-content">
+                    <span>Получен: </span>30.07.2022
+                </div>
+                <button class="lk__orders-open-products" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    3 товара
+                </button>
+                <div class="collapse" id="collapseExample">
+                    <div class="lk__orders-product">
+                        <div class="lk__orders-product-img">
+                            <img src="img/cat_img_1.png" alt="">
+                        </div>
+                        <div class="lk__orders-product-info">
+                            <div class="lk__orders-product-title">
+                                Махровый халат с логотипом «Чистопар»
+                            </div>
+                            <div class="lk__orders-product-cost">
+                                <span>5 699</span> ₽
+                            </div>
+                        </div>
+                        <div class="lk__orders-product-quantity">
+                            1
+                        </div>
+                    </div>
+                    <div class="lk__orders-product">
+                        <div class="lk__orders-product-img">
+                            <img src="img/cat_img_1.png" alt="">
+                        </div>
+                        <div class="lk__orders-product-info">
+                            <div class="lk__orders-product-title">
+                                Махровый халат с логотипом «Чистопар»
+                            </div>
+                            <div class="lk__orders-product-cost">
+                                <span>5 699</span> ₽
+                            </div>
+                        </div>
+                        <div class="lk__orders-product-quantity">
+                            1
+                        </div>
+                    </div>
+
+                </div>
+                <a href="" class="lk__orders-link">
+                    Повторить заказ
+                </a>
             </div>
+            <div class="lk__orders-containers">
+                <div class="lk__orders-title">
+                    Заказ МР657385
+                </div>
+                <div class="lk__orders-cost">
+                    на сумму
+                    <span>5 999</span>₽
+                </div>
+                <div class="lk__orders-content">
+                    <span>Оформлен: </span>27.07.2022
+                </div>
+                <div class="lk__orders-content">
+                    <span>Получен: </span>30.07.2022
+                </div>
+                <button class="lk__orders-open-products" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    3 товара
+                </button>
+                <div class="collapse" id="collapseExample">
+                    <div class="lk__orders-product">
+                        <div class="lk__orders-product-img">
+                            <img src="img/cat_img_1.png" alt="">
+                        </div>
+                        <div class="lk__orders-product-info">
+                            <div class="lk__orders-product-title">
+                                Махровый халат с логотипом «Чистопар»
+                            </div>
+                            <div class="lk__orders-product-cost">
+                                <span>5 699</span> ₽
+                            </div>
+                        </div>
+                        <div class="lk__orders-product-quantity">
+                            1
+                        </div>
+                    </div>
+                    <div class="lk__orders-product">
+                        <div class="lk__orders-product-img">
+                            <img src="img/cat_img_1.png" alt="">
+                        </div>
+                        <div class="lk__orders-product-info">
+                            <div class="lk__orders-product-title">
+                                Махровый халат с логотипом «Чистопар»
+                            </div>
+                            <div class="lk__orders-product-cost">
+                                <span>5 699</span> ₽
+                            </div>
+                        </div>
+                        <div class="lk__orders-product-quantity">
+                            1
+                        </div>
+                    </div>
 
-            <div class="cat_cards_container cat_cards_category catalog__product-category">
-                <ul class="catalog-cards-cont">
-                    <li class="d-flex align-items-center">
-                        <a href="" class=""></a>
-                        <img src="img/cat_img_1.png" alt="">
-                        Текстиль для бани и сауны
-                    </li>
-                    <li class="d-flex align-items-center">
-                        <a href="" class=""></a>
-                        <img src="img/cat_img_1.png" alt="">
-                        Текстиль для бани и сауны
-                    </li>
-                    <li class="d-flex align-items-center">
-                        <a href="" class=""></a>
-                        <img src="img/cat_img_1.png" alt="">
-                        Текстиль для бани и сауны
-                    </li>
-                    <li class="d-flex align-items-center">
-                        <a href="" class=""></a>
-                        <img src="img/cat_img_1.png" alt="">
-                        Текстиль для бани и сауны
-                    </li>
-                    <li class="d-flex align-items-center">
-                        <a href="" class=""></a>
-                        <img src="img/cat_img_1.png" alt="">
-                        Текстиль для бани и сауны
-                    </li>
-                    <li class="d-flex align-items-center">
-                        <a href="" class=""></a>
-                        <img src="img/cat_img_1.png" alt="">
-                        Текстиль для бани и сауны
-                    </li>
-                    <li class="d-flex align-items-center">
-                        <a href="" class=""></a>
-                        <img src="img/cat_img_1.png" alt="">
-                        Текстиль для бани и сауны
-                    </li>
-                    <li class="d-flex align-items-center">
-                        <a href="" class=""></a>
-                        <img src="img/cat_img_1.png" alt="">
-                        Текстиль для бани и сауны
-                    </li>
-
-                </ul>
-
+                </div>
+                <a href="" class="lk__orders-link">
+                    Повторить заказ
+                </a>
             </div>
-
-
 
         </div>
 
-    </div>
-
-</section>
-
-<div class="email-form-container">
-    <div class="email-form-text-block">
-        <div class="email-form-heading">Оставьте почту</div>
-        <div class="email-form-subtitle">И мы расскажем вам о новых акция и партнёрах</div>
-    </div>
-
-    <div class="email-form">
-        <div class="email-form-input">
-            <input class="email-form-field" placeholder="Мой e-mail" />
-            <button class="email-form-button">
-                Подписаться
-            </button>
-
+        <div class="lk__footer-block">
+            <a href="" class="lk__footer-link">
+                Выйти из профиля
+            </a>
         </div>
-        <div class="email-form-hint">Нажимая «Подписаться», вы соглашаетесь с <a class="email-form-link"
-                                                                                 href="#">политикой
-            конфиденциальности</a></div>
+
     </div>
 </div>
 
